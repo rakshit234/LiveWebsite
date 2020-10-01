@@ -15,6 +15,30 @@
         overflow-x: hidden;
         background-color: #003367;
       }
+     #navbar{
+    display: flex;
+    flex-direction: unset;
+    border: 2px solid blue;
+    }
+    #navbar ul{
+    display: flex;
+    background-color: #bed622;
+    border: 1px solid pink;
+    }
+    #navbar li {
+    list-style-type: none;
+    padding: 12px 20px;
+    font-size: 25px;
+    }
+    #navbar li a {
+    text-decoration: none;
+    color: pink;
+     }
+     #navbar li a:hover{
+        background-color: blue;
+        color: pink;
+        border-radius: 7px;
+      }
       h1 {
         property: Lucida Bright;
         text-align: center;
@@ -74,6 +98,15 @@
     </style>
   </head>
   <body >
+    <nav id="navbar">
+        <ul>
+            <li><a href="https://hacktoberfest.digitalocean.com/">Hacktober-2020</a></li> 
+        </ul>
+        
+    </nav>
+    
+    
+    
     <div class="main">
       <div>
       <img
