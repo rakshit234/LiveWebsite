@@ -198,3 +198,20 @@ a {
     font-size: 3rem !important;
   }
 }
+
+.social-btn.github:hover a{
+    color:black !important;
+    
+}
+.social-btn.github:hover,.social-btn.twitter:hover{
+    background:white !important;
+}
+
+.social-btn.github a,.social-btn.twitter a{
+    color:white !important;
+}
+
+.social-btn.twitter:hover a{
+    color:deepskyblue !important;
+    
+}
