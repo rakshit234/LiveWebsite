@@ -18,10 +18,20 @@ body {
   font-family: 'Pirata One', cursive;
   text-align: center;
   font-size: 70px;
-  color: rgb(99, 53, 235);
+  color: #FF8AE2;
   text-shadow: 2px 2px rgb(172, 36, 190);
-
+  animation: glow 1s ease-in-out infinite alternate;
 }
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #9DF3DD, 0 0 20px #9DF3DD, 0 0 25px #9DF3DD, 0 0 30px #9DF3DD, 0 0 35px #9DF3DD;
+  }
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #9DF3DD, 0 0 40px #9DF3DD, 0 0 50px #9DF3DD, 0 0 60px #9DF3DD, 0 0 70px #9DF3DD;
+  }
+}
+
 h1 {
   font-family: 'Acme', sans-serif;
   text-align: center;
