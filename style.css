@@ -129,8 +129,8 @@ a {
 }
 
 .btn:hover {
-  background-color: cyan;
-  color: #db70c5;
+  background-color: white;
+  color: #000;
 }
 
 #foot {
