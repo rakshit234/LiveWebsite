@@ -262,3 +262,14 @@ a {
     scroll-behavior: smooth;
   }
 }
+
+#moving-text {
+  background-color: #43658b;
+  color: cyan;
+  height: 100px;
+  font-size: 40px;
+  padding:10px;
+  border-top: solid cyan 5px;
+  border-bottom: solid cyan 5px;
+}
+
