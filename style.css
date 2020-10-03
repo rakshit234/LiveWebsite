@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Poppins";
-  src: url(fonts/Poppins-Regular.otf) format("opentype");
+  font-family: 'Poppins';
+  src: url(fonts/Poppins-Regular.otf) format('opentype');
 }
 
 body {
@@ -45,7 +45,7 @@ p {
 
 .image {
   width: 85%;
-  transition: .2s;
+  transition: 0.2s;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -67,7 +67,7 @@ a:hover {
 }
 
 .list-style {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   text-align: center;
   display: flex;
   justify-content: center;
@@ -87,7 +87,7 @@ a:hover {
   padding: 0.5em;
   border-bottom: 1px solid rgba(255, 255, 255, 0.644);
   text-align: justify;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 .list-style li ul:hover {
@@ -103,7 +103,7 @@ a:hover {
   color: whitesmoke;
 }
 
-.section-container{
+.section-container {
   background: #0a2a4677;
   padding: 5em 0;
 }
@@ -115,7 +115,7 @@ a {
 .btn {
   background-color: rgba(52, 17, 54, 0.63);
   border: none;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   padding: 16px 32px;
   text-align: center;
   font-size: 16px;
@@ -185,6 +185,10 @@ a {
   padding: 3px;
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
+}
+
+.text-align__center {
+  text-align: center;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
