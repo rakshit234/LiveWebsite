@@ -16,8 +16,8 @@ body {
 }
 #t1{ 
   font-family: 'Pirata One', cursive;
-  text-align: center;
-  font-size: 70px;
+
+  font-size: 50px;
   color: rgb(99, 53, 235);
   text-shadow: 2px 2px rgb(172, 36, 190);
 
@@ -25,13 +25,13 @@ body {
 h1 {
   font-family: 'Acme', sans-serif;
   text-align: center;
-  font-size: 80px;
+  font-size: 60px;
   color: rgb(38, 206, 206);
   text-shadow: 2px 2px rgb(43, 114, 114);
 }
 
 h2 {
-  background-color: cyan;
+  color: aliceblue;
   text-align: center;
 }
 
@@ -85,7 +85,7 @@ a:hover {
   text-align: center;
   display: flex;
   justify-content: center;
-  color: white;
+  color:violet;
   letter-spacing: 0.5px;
 }
 
