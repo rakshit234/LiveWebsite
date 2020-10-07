@@ -5,19 +5,19 @@
 
 body {
   overflow-x: hidden;
-  background-color: #1a4366;
+  background-color: #3d1028;
 }
 
 #demo{
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Kaushan Script',italic;
   text-align: center;
   font-size: 60px;
   color: #8ecae6;
   text-shadow: 2px 2px rgb(172, 36, 190);
 }
 
-#t1{ 
-  font-family: 'Kaushan Script', cursive;
+#t1{
+  font-family: 'Brush Script M', cursive;
   text-align: center;
   font-size: 70px;
   color: #ffa69e;
@@ -26,7 +26,7 @@ body {
 }
 
 h1 {
-  font-family: 'Bungee Inline', cursive;
+  font-family: 'Brush Script M', cursive;
   text-align: center;
   font-size: 80px;
   color: rgb(38, 206, 206);
@@ -76,7 +76,8 @@ a:hover {
 }
 
 .list-style {
-  font-family: "Poppins";
+  font-family: "Sansita Swashed";
+  font -style: italic;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -124,7 +125,7 @@ a {
 .btn {
   background-color: rgba(52, 17, 54, 0.63);
   border: none;
-  font-family: "Poppins";
+  font-family: "Sansita Swashed";
   padding: 16px 32px;
   text-align: center;
   font-size: 16px;
