@@ -21,6 +21,7 @@ Add Your Contribution's to this repository by doing following operations:
 - Can also link to digital ocean official website.
 - Can improve the text "Steps to be followed".
 - Can also focus on motivating others to plant a tree this hacktoberfest'20.
+- Do not violate any rules given on the hacktoberfest website.
 
 Special thanks:+1: to:
 
