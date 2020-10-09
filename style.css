@@ -141,9 +141,40 @@ a {
   background-color: cyan;
   color: #db70c5;
 }
- /* Social Button */
+/* Sweta's code for social buttons */
+.social-btn.github
+{
+  background-color: #000000;
+  color: #fff;
+  border-radius: 5px;
+  font-family: Poppins;
+  box-shadow: 0px 0px 12px -1px rgb(210, 158, 219);
+  transition: all 0.5s;
+}
+.social-btn.github:hover{
+  background-color: cyan;
+  color: #db70c5 !important;
+}
+.social-btn.twitter {
+  background-color: #00acee;
+  color: #fff;
+  border-radius: 5px;
+  font-family: Poppins;
+  box-shadow: 0px 0px 12px -1px rgb(210, 158, 219);
+  transition: all 0.5s;
+}
+.social-btn.twitter:hover
+{
+  background-color: cyan;
+  color: #db70c5 !important;
+}
+/* Sweta's code end */
+
+
+/* Social Button */
  .social-btn.github:after {
   font-size: 20px;
+
 }
 .social-btn.twitter:after {
   font-size: 20px;
