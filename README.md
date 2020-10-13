@@ -21,6 +21,7 @@ Add Your Contribution's to this repository by doing following operations:
 - Can also link to digital ocean official website.
 - Can improve the text "Steps to be followed".
 - Can also focus on motivating others to plant a tree this hacktoberfest'20.
+- Fixed the error with the timer by converted the vaiable to a string.
 
 Special thanks:+1: to:
 
@@ -34,6 +35,7 @@ Special thanks:+1: to:
 * [mukesh2309](https://github.com/mukesh2309)
 * [hudiansyahrobby](https://github.com/hudiansyahrobby)
 * [Nandini-13](https://github.com/Nandini-13)
+* [mbanot](https://github.com/mbanot)
 
 <br />
 <a href="https://ctt.ac/Vu1a7"><img src="https://www.flaticon.com/svg/static/icons/svg/733/733635.svg" width="50px" height="50px" style="padding:30px"/></a> 

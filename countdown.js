@@ -21,13 +21,13 @@
 
    // Output the result in an element with id="demo"
    document.getElementById("demo1").innerHTML =
-    days;
+    days.toString();
     document.getElementById("demo2").innerHTML =
-    hours;
+    hours.toString();
     document.getElementById("demo3").innerHTML =
-    minutes;
+    minutes.toString();
     document.getElementById("demo4").innerHTML =
-    seconds;
+    seconds.toString();
 
 
    // If the count down is over, write some text
