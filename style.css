@@ -166,8 +166,8 @@ a {
 }
 
 .btn:hover {
-  background-color: cyan;
-  color: #db70c5;
+  background-color: #d7385e;
+  color: white;
 }
 /* Social Button */
 .social-btn.github:after {
