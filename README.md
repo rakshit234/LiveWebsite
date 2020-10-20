@@ -10,7 +10,7 @@ Pull request and add any feature to the website.:octocat:
 * [Click here to register for hacktoberfest2020.](https://hacktoberfest.digitalocean.com/)
 
 Add Your Contribution's to this repository by doing following operations:
-- I have added the image of t-shirt in the repo, you can add it anywhere it looks good.
+- I have added the image of t-shirt in the repo, you can add it anywhere,it looks good.
 - Also you can make this webpage mobile browser compatible and tablet compatible.
 - Add image in title bar of hacktoberfest logo.
 - Add Transition through CSS to make it look great.
@@ -19,7 +19,7 @@ Add Your Contribution's to this repository by doing following operations:
 - Change text color inside the button.
 - Can add links to hacktoberfest social media accounts like instagram, twitter, etc.
 - Can also link to digital ocean official website.
-- Can improve the text "Steps to be followed".
+- Can improve the text "Steps to be follow".
 - Can also focus on motivating others to plant a tree this hacktoberfest'20.
 
 Special thanks:+1: to:
