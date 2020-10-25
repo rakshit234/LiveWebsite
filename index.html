@@ -24,10 +24,57 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
     integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <!--Typewrite effect for plant a tree does not loop if on its own js file-->
+    <script>
+        function startTyping() {
+            var sentence = ["P", "l", "a", "n", "t", " ", "a", " ", "t", "r", "e", "e", " ", "i", "n", " ", "t", "h", "e", " ", "H", "a", "c", "k", "t", "o", "b", "e", "r", " ", "F", "o", "r", "e", "s", "t", " "];
 
+            var i;
+            for (i = 0; i < sentence.length; i++) {
+                    type(i);
+            }
+            
+            function type(i) {
+                var wholeSentence = [];
+                var checkEnd =  (sentence.length - 1);
+                setTimeout(function () {
+                    wholeSentence += sentence[i];
+                    document.getElementById("typeWriter").innerHTML += wholeSentence;
+                    if(i == checkEnd){
+                        backspace(i, wholeSentence);
+                    }
+                }, 150 * i);
+            }
+
+            function backspace(i, wholeSentence) {
+                var sentenceLength = i + wholeSentence.length;
+                if(wholeSentence.length == 1){
+                    for (var d = 0; d != sentence.length; d++){
+                        backspaceLetter(d);
+                    }
+                }
+            }
+
+            function backspaceLetter(d) {
+                var newSentenceLength;
+                setTimeout(function () {
+                    sentence.pop();
+                    var arrayString = sentence.join();
+                    var newString = arrayString.replace(/,/g,"");
+                    document.getElementById("typeWriter").innerHTML = newString;
+                    newSentenceLength = newString.length;
+                    if(newSentenceLength == 0){
+                        i = 0;
+                        startTyping();
+                    }
+                }, 100 * d);
+            }
+
+        }
+    </script>
 </head>
 
-<body>
+<body onload="startTyping()">
   <div class="main">
     <div style="background-color: #183d5d; padding: 50px 0 50px 0;">
       <a href="https://rakshit234.github.io/HacktoberFest2020/">
@@ -140,7 +187,7 @@
             </div>
           </div>
         </div>
-        <h1 data-aos="zoom-in">Plant a tree in the Hacktober Forest</h1><br><br>
+        <h1 data-aos="zoom-in" id="typeWriter"></h1><br><br>
         <div class="container">
           <i>
             <p style="color: white; font-size: 210% !important; font-family: Poppins;">
