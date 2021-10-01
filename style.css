@@ -99,7 +99,11 @@ a {
 }
 
 a:hover {
-  color: black;
+  color: red;
+  text-decoration: none;
+}
+a:visited {
+  color: green;
   text-decoration: none;
 }
 
