@@ -113,8 +113,13 @@ a {
 }
 
 a:hover {
-  color: black;
   text-decoration: none;
+  color: white;
+}
+
+
+ul a:hover {
+  color: black;
 }
 
 .list-style {
@@ -152,7 +157,7 @@ a:hover {
 }
 
 .list-style li ul a:hover {
-  color: whitesmoke;
+  color: #f74700;
 }
 
 .section-container {
@@ -172,7 +177,7 @@ a {
 
 .btn {
   background-color: rgb(171, 138, 116);
-  
+
   border: none;
   border-radius: 30px;
   font-family: "Poppins";
@@ -191,20 +196,20 @@ a {
 .btn:hover {
   color: rgb(255, 255, 255);
         border-radius: 10px;
-        background: rgb(244, 240, 225);
+        background: rgb(126, 102, 87);
         box-shadow: 0 0 10px rgb(244, 240, 225),0 0 40px rgb(244, 240, 225), 0 0 80px rgb(244, 240, 225) ;
 }
 /* Social Button */
 .social-btn {
   background-color: rgb(171, 138, 116);
-  
+
   border: none;
   border-radius: 30px;
   font-family: "Poppins";
   padding: 16px 32px;
   text-align: center;
   font-size: 16px;
-  /* margin: 400px 0px; */
+   margin: 5px 0px;
   transition: 0.3s;
   font-weight: bold;
   /* box-shadow: 0px 0px 12px -1px rgb(210, 158, 219); */
@@ -212,13 +217,13 @@ a {
   text-transform: uppercase;
   letter-spacing: 1.2px;
 }
-  
+
 .social-btn:hover {
   color: rgb(255, 255, 255);
         border-radius: 10px;
-        background: rgb(244, 240, 225);
-        box-shadow: 0 0 10px rgb(244, 240, 225),0 0 40px rgb(244, 240, 225), 0 0 80px rgb(244, 240, 225)
-  
+        background: rgb(126, 102, 87);
+        box-shadow: 0 0 1px rgb(94, 77, 66),0 0 5px rgb(94, 77, 66), 0 0 10px rgb(94, 77, 66);
+
 }
 
 #foot {
@@ -391,7 +396,7 @@ a#updated-rules:hover {
   background: #efdecd;
   box-shadow: 0 0 10px #f4f0e1, 0 0 40px #f4f0e1, 0 0 80px #f4f0e1;
   transition-delay: 1s;
-} 
+}
 .btn1 span{
   position: absolute;
   display: block;
