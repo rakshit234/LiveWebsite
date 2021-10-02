@@ -1,5 +1,7 @@
 <h1>This Repository has been excluded from the Hacktoberfest, so do not make any pull request to it, if you are here for T-shirt.</h1>
 
+<h2> [Visit another repository.](https://github.com/rakshit234/Hacktoberfest_2021) </h2>
+
 <p align="center">
     <a href="https://hacktoberfest.digitalocean.com/" target="_blank">
     	<img src="https://github.com/rakshit234/HacktoberFest2020/blob/master/images/H-icon-dark.2021.png" width="200px" height="200px">
