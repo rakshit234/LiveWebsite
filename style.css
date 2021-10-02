@@ -37,6 +37,8 @@ body {
 #demo4 {
   flex: 1;
   font-family: "Cousine", monospace;
+  font-size: 3rem;
+  font-weight: bold;
   width: 140px;
   text-align: center;
 }
@@ -166,7 +168,7 @@ a {
 
 .btn {
   background-color: rgb(171, 138, 116);
-  
+
   border: none;
   border-radius: 30px;
   font-family: "Poppins";
@@ -191,7 +193,7 @@ a {
 /* Social Button */
 .social-btn {
   background-color: rgb(171, 138, 116);
-  
+
   border: none;
   border-radius: 30px;
   font-family: "Poppins";
@@ -206,13 +208,13 @@ a {
   text-transform: uppercase;
   letter-spacing: 1.2px;
 }
-  
+
 .social-btn:hover {
   color: rgb(255, 255, 255);
         border-radius: 10px;
         background: rgb(244, 240, 225);
         box-shadow: 0 0 10px rgb(244, 240, 225),0 0 40px rgb(244, 240, 225), 0 0 80px rgb(244, 240, 225)
-  
+
 }
 
 #foot {
@@ -385,7 +387,7 @@ a#updated-rules:hover {
   background: #efdecd;
   box-shadow: 0 0 10px #f4f0e1, 0 0 40px #f4f0e1, 0 0 80px #f4f0e1;
   transition-delay: 1s;
-} 
+}
 .btn1 span{
   position: absolute;
   display: block;
