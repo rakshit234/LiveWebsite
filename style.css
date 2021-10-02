@@ -365,6 +365,7 @@ a#updated-rules:hover {
 }
 .social-btn {
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 #social{
   justify-content: space-evenly;
@@ -373,15 +374,12 @@ a#updated-rules:hover {
 
 .btn1{
   position: relative;
-  display: inline-block;
   padding: 120px 30px 120px 90px;
   color: #f4f0e1;
   background-color: #efdecd;
   overflow: hidden;
   transition: 0.2s;
   height: 600px;
-  width:550px ;
-  margin: 10px 50px;
 }
 .btn1:hover{
   color: #255784;
