@@ -164,6 +164,7 @@ a {
   color: white;
 }
 
+
 .btn {
   background-color: rgb(171, 138, 116);
   
@@ -183,7 +184,7 @@ a {
 }
 
 .btn:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(29, 28, 28);
         border-radius: 10px;
         background: rgb(244, 240, 225);
         box-shadow: 0 0 10px rgb(244, 240, 225),0 0 40px rgb(244, 240, 225), 0 0 80px rgb(244, 240, 225) ;
@@ -366,7 +367,6 @@ a#updated-rules:hover {
 #social{
   justify-content: space-evenly;
 }
-
 
 .btn1{
   position: relative;
