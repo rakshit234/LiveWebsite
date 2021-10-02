@@ -41,6 +41,7 @@ Add Your Contribution's to this repository by doing following operations:
     
 * [Nurul Ramadhona](https://github.com/nurulramadhona)
 * [ABHINAV SINGH BISHT](https://github.com/Abhinav-Singh-Bisht)
+* [Brian Tham](https://github.com/Nightey3s)
 
 <br />
 
