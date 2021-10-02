@@ -336,9 +336,6 @@ a#updated-rules:hover {
     padding: 0;
     margin: 0 auto !important;
   }
-  .free-shirt {
-    font-size: 1.2rem !important;
-  }
 }
 
 @media screen and (min-width: 480px) {
