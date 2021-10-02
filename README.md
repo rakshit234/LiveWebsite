@@ -1,4 +1,4 @@
-<h1>This Repository has not excluded from the Hacktoberfest, so do not make any pull request to it, if you are here for T-shirt.</h1>
+<h1>This Repository has been excluded from the Hacktoberfest, so do not make any pull request to it, if you are here for T-shirt.</h1>
 
 <p align="center">
     <a href="https://hacktoberfest.digitalocean.com/" target="_blank">
