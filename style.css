@@ -194,32 +194,77 @@ a {
         background: rgb(244, 240, 225);
         box-shadow: 0 0 10px rgb(244, 240, 225),0 0 40px rgb(244, 240, 225), 0 0 80px rgb(244, 240, 225) ;
 }
-/* Social Button */
-.social-btn {
-  background-color: rgb(171, 138, 116);
-  
-  border: none;
-  border-radius: 30px;
-  font-family: "Poppins";
-  padding: 16px 32px;
-  text-align: center;
-  font-size: 16px;
-  /* margin: 400px 0px; */
-  transition: 0.3s;
-  font-weight: bold;
-  /* box-shadow: 0px 0px 12px -1px rgb(210, 158, 219); */
-  transition: 0.5s;
-  text-transform: uppercase;
-  letter-spacing: 1.2px;
+
+
+/* Social Media Buttons*/
+
+.smb-container .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1) ;
+  transition: all 0.3s ease-out;
 }
-  
-.social-btn:hover {
-  color: rgb(255, 255, 255);
-        border-radius: 10px;
-        background: rgb(244, 240, 225);
-        box-shadow: 0 0 10px rgb(244, 240, 225),0 0 40px rgb(244, 240, 225), 0 0 80px rgb(244, 240, 225)
-  
+
+.smb-container .button:hover{
+  width: 200px;
 }
+
+.smb-container .button .icon{
+  display: inline-block;
+  float: left;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+
+.smb-container .button:nth-child(1):hover .icon{
+  background: #333;
+}
+.smb-container .button:nth-child(2):hover .icon{
+  background: #1DA1F2;
+}
+.smb-container .button:nth-child(3):hover .icon{
+  background: #E1306C;
+}
+
+.smb-container .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  color: rgb(171, 138, 116);
+  transition: all 0.3s ease-out;
+}
+
+.smb-container .button:hover .icon i{
+  color: #fff;
+}
+
+.smb-container .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+
+.smb-container .button:nth-child(1) span{
+  color : #333;
+}
+.smb-container .button:nth-child(2) span{
+  color : #1DA1F2;
+}
+.smb-container .button:nth-child(3) span{
+  color : #E1306C;
+}
+
 
 #foot {
   margin-top: 80px;
