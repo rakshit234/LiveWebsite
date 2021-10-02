@@ -178,6 +178,7 @@ a {
   font-family: "Poppins";
   padding: 16px 32px;
   text-align: center;
+  color: black;
   font-size: 16px;
   /* margin: 400px 0px; */
   transition: 0.3s;
@@ -197,7 +198,7 @@ a {
 /* Social Button */
 .social-btn {
   background-color: rgb(171, 138, 116);
-  
+  color: black;
   border: none;
   border-radius: 30px;
   font-family: "Poppins";
