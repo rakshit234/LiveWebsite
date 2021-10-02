@@ -368,6 +368,7 @@ a#updated-rules:hover {
 }
 .social-btn {
   border-radius: 10px;
+  margin: 10px 10px 10px 10px;
 }
 #social{
   justify-content: space-evenly;
