@@ -13,15 +13,15 @@ Pull request and add any feature to the website.:octocat:
 * [Click here to visit the website.](https://rakshit234.github.io/HacktoberFest2021/)
 * [Click here to register for hacktoberfest2021.](https://hacktoberfest.digitalocean.com/)
 
-Add Your Contribution's to this repository by doing following operations:
+Add your contributions to this repository by doing the following:
 - You can make this webpage mobile browser compatible and tablet compatible.
-- Add image in title bar of hacktoberfest logo.
+- Add an image in the title bar of the Hacktoberfest logo.
 - Add Transition through CSS to make it look great.
-- Add Animation for smooth experience.
-- Add Hover Effects on buttons and links in the website.
-- Change text color inside the button.
-- Can add links to hacktoberfest social media accounts like instagram, twitter, etc.
-- Can also link to digital ocean official website.
+- Add animation for a smooth experience.
+- Add hover effects on buttons and links in the website.
+- Change the text color inside the buttons.
+- Can add links to the Hacktoberfest social media accounts, like Instagram, Twitter, etc.
+- Can also a link to the Digital Ocean official website.
 - Can improve the text "Steps to be followed".
 - Fix the visitor counter.
 - Update/improve the README.
